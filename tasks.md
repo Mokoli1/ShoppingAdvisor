@@ -60,6 +60,9 @@
   - [ ] Set up JWT token validation
   - [ ] Implement password reset functionality
   - [ ] Add social login options (Google, Apple)
+  - [ ] Add guest mode support (anonymous sessions)
+  - [ ] Implement session-based data storage for guests
+  - [ ] Create guest-to-registered user conversion flow
 
 - [ ] **User Profile Management**
   - [ ] Design user profile schema
@@ -67,6 +70,9 @@
   - [ ] Implement preference storage
   - [ ] Add vehicle information management
   - [ ] Create membership tracking system
+  - [ ] Design guest user data schema (session-based)
+  - [ ] Add default guest preferences and vehicle data
+  - [ ] Implement guest data persistence across sessions
 
 ### 2.2 Product Service
 - [ ] **Database Schema Design**
@@ -197,6 +203,10 @@
   - [ ] Add password reset screen
   - [ ] Implement social login UI
   - [ ] Add biometric authentication
+  - [ ] Design guest mode entry flow
+  - [ ] Add "Continue as Guest" option on welcome screen
+  - [ ] Create guest-to-registered conversion prompts
+  - [ ] Add guest mode indicator in UI
 
 - [ ] **Smart List Creation**
   - [ ] Design list input interface
@@ -225,6 +235,10 @@
   - [ ] Implement membership management
   - [ ] Add preference settings
   - [ ] Create privacy controls
+  - [ ] Design guest profile screen with limited features
+  - [ ] Add guest vehicle information input with defaults
+  - [ ] Create guest preference settings (session-based)
+  - [ ] Add "Save Progress - Create Account" prompts for guests
 
 ### 4.2 Web Dashboard (Next.js)
 - [ ] **Dashboard Layout**
@@ -233,6 +247,8 @@
   - [ ] Add user authentication
   - [ ] Create dashboard homepage
   - [ ] Add mobile-responsive design
+  - [ ] Add guest mode support for web dashboard
+  - [ ] Create limited guest dashboard with registration prompts
 
 - [ ] **Analytics Dashboard**
   - [ ] Create savings tracking charts
@@ -262,6 +278,33 @@
   - [ ] Add shopping list state
   - [ ] Implement cache management
   - [ ] Add offline support
+  - [ ] Add guest session state management
+  - [ ] Implement guest data persistence in local storage
+  - [ ] Create guest-to-user data migration logic
+
+## Phase 5: Guest Mode & Core Features
+
+### 5.0 Guest Mode Implementation
+- [ ] **Guest User Experience**
+  - [ ] Define guest mode feature limitations
+  - [ ] Create guest data retention policies (session vs 30-day)
+  - [ ] Add guest conversion incentives and prompts
+  - [ ] Implement guest shopping list limits (e.g., 3 lists max)
+  - [ ] Create guest savings tracking (limited history)
+
+- [ ] **Guest Data Management**
+  - [ ] Implement browser local storage for guest data
+  - [ ] Add guest session analytics (privacy-compliant)
+  - [ ] Create guest data cleanup routines
+  - [ ] Add guest data export for account conversion
+  - [ ] Implement guest feature usage tracking
+
+- [ ] **Guest-to-User Conversion**
+  - [ ] Design strategic conversion prompts
+  - [ ] Add value proposition messaging for registration
+  - [ ] Create seamless data migration on signup
+  - [ ] Implement conversion rate tracking
+  - [ ] Add post-conversion user onboarding
 
 ## Phase 5: Core Features Implementation
 
@@ -448,6 +491,9 @@
   - [ ] Conduct usability testing
   - [ ] Add feedback collection
   - [ ] Implement bug tracking
+  - [ ] Test guest user flows and limitations
+  - [ ] Validate guest-to-user conversion process
+  - [ ] Test guest data persistence and cleanup
 
 - [ ] **Performance Testing**
   - [ ] Test app launch times (<3s)
@@ -480,6 +526,10 @@
   - [ ] Add funnel analysis
   - [ ] Create engagement metrics
   - [ ] Implement privacy-safe analytics
+  - [ ] Track guest vs registered user behavior
+  - [ ] Monitor guest-to-registered conversion rates
+  - [ ] Add guest feature usage analytics
+  - [ ] Create guest retention metrics
 
 - [ ] **Success Metrics Tracking**
   - [ ] Track average savings per user
@@ -550,6 +600,9 @@
 - [ ] Weekly iteration cycle maintained
 - [ ] User feedback collection system operational
 - [ ] Price accuracy within ±$0.50
+- [ ] Guest mode conversion rate >15%
+- [ ] Guest users can complete shopping optimization without registration
+- [ ] Guest data persists across sessions reliably
 
 ### Technical Requirements
 - [ ] GDPR/CCPA compliance implemented
